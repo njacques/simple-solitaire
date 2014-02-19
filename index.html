@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Solitare</title>
+    <meta name="" content="">
+    <style>
+        canvas {
+            border: 1px dashed gray;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="board" width="1300px" height="600px"></canvas>
+    <script src="http://code.createjs.com/easeljs-0.7.1.min.js"></script>
+    <script src="js/resources.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/placeholder.js"></script>
+    <script src="js/deck.js"></script>
+    <script src="js/table.js"></script>
+    <script src="js/solitaire.js"></script>
+    <script type="text/javascript">
+        var path = Card.prototype.basePath = 'images/',
+            game = new Solitaire();
+    </script>
+</body>
+</html>
